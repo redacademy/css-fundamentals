@@ -220,6 +220,38 @@ They exist in the HTML itself.</p>
 <p>CSS was essentially invented to avoid inline styles, so they should be avoided whenever possible.
 There are a few exceptions (programattically generated background images, some jQuery functionality), but 99% of the time, you should be using CSS instead.</p>
 
+<h2 id="naming-classes-and-ids">Naming Classes and IDs</h2>
+<pre class="highlight css"><code><span class="c">/* Bad */</span>
+<span class="nc">.Description</span> <span class="p">{}</span>
+<span class="nc">.DESCRIPTION</span> <span class="p">{}</span>
+
+<span class="c">/* Good */</span>  
+<span class="nc">.description</span> <span class="p">{}</span>
+
+<span class="c">/* Bad */</span>
+<span class="nc">.main_nav</span> <span class="p">{}</span>
+<span class="nc">.MAIN_NAV</span> <span class="p">{}</span>
+<span class="nc">.MainNav</span> <span class="p">{}</span>
+<span class="nc">.mainnav</span> <span class="p">{}</span>
+
+<span class="c">/* Good */</span>
+<span class="nc">.main-nav</span> <span class="p">{}</span>
+
+<span class="c">/* Bad */</span>
+<span class="nc">.des</span> <span class="p">{}</span>
+<span class="nc">.dscript</span> <span class="p">{}</span>
+
+<span class="c">/* Good */</span>
+<span class="nc">.description</span> <span class="p">{}</span>
+</code></pre>
+<p>Classes and IDs should be named using <strong>kebab case</strong> (lowercase with words separated by hyphens - <code class="prettyprint">looks-like-a-kebab</code>).</p>
+
+<p>They should be used to <em>describe</em> the element you&rsquo;re assigning a class or ID to.
+For example, <code class="prettyprint">side-navigation</code> is descriptive, while <code class="prettyprint">column-2</code> is not.</p>
+
+<p>They should avoid silly abbreviations, like <code class="prettyprint">des</code> for <code class="prettyprint">description</code>, of <code class="prettyprint">clm</code> for <code class="prettyprint">column</code>.
+Some abbreviations are permitted, but only if they&rsquo;re ubiquitous, like <code class="prettyprint">nav</code> for <code class="prettyprint">navigation</code>.</p>
+
           <h1 id="how-css-works">How CSS Works</h1>
 <pre class="highlight plaintext"><code>                    HTML Document Tree
 
