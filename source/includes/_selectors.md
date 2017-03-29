@@ -79,3 +79,38 @@ They exist in the HTML itself.
 
 CSS was essentially invented to avoid inline styles, so they should be avoided whenever possible.
 There are a few exceptions (programattically generated background images, some jQuery functionality), but 99% of the time, you should be using CSS instead.
+
+## Naming Classes and IDs
+
+```css
+/* Bad */
+.Description {}
+.DESCRIPTION {}
+
+/* Good */  
+.description {}
+
+/* Bad */
+.main_nav {}
+.MAIN_NAV {}
+.MainNav {}
+.mainnav {}
+
+/* Good */
+.main-nav {}
+
+/* Bad */
+.des {}
+.dscript {}
+
+/* Good */
+.description {}
+```
+
+Classes and IDs should be named using __kebab case__ (lowercase with words separated by hyphens - `looks-like-a-kebab`).
+
+They should be used to _describe_ the element you're assigning a class or ID to.
+For example, `side-navigation` is descriptive, while `column-2` is not.
+
+They should avoid silly abbreviations, like `des` for `description`, of `clm` for `column`.
+Some abbreviations are permitted, but only if they're ubiquitous, like `nav` for `navigation`.
