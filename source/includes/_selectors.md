@@ -57,7 +57,7 @@ For example, `<p class="description">` is selected using `.description`.
 }
 ```
 
-IDs operate very similarlry to classes.
+IDs operate very similarly to classes.
 The difference is that an element of any ID should __only appear once__ on a page.
 
 In the example to the right, we use the id `main-description`. If we need to use the `main-description` id on another element on the page, we should change `main-description` from an ID to a class.
