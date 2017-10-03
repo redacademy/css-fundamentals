@@ -74,7 +74,7 @@ For example, `<h1 id="main-description">` is selected using `#main-description`.
 <p style="color: red">This text will be red</p>
 ```
 
-Inline selectors are selectors that manually applied to an element.
+Inline selectors are selectors that are manually applied to an element.
 They exist in the HTML itself.
 
 CSS was essentially invented to avoid inline styles, so they should be avoided whenever possible.
