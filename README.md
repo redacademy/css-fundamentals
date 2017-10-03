@@ -1,6 +1,6 @@
 # CSS Fundamentals
 
-Visit this repo on [Github Pages](redacademy.github.io/css-fundamentals/)!
+Visit this repo on [Github Pages](https://redacademy.github.io/css-fundamentals/)!
 
 ## Installation
 
