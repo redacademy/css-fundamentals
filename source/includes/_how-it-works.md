@@ -103,7 +103,7 @@ will the 'font-size: 16px' rule applied
         h2        p
 ```
 
-As we saw in the previous example, if we apply a CSS rule to and element, it will be applied to all of its descendants. So, if we apply a rule to `html`, the rule will be applied to the __entire document__.
+As we saw in the previous example, if we apply a CSS rule to an element, it will be applied to all of its descendants. So, if we apply a rule to `html`, the rule will be applied to the __entire document__.
 
 If we think of the tree as a waterfall with water flowing from the root (the `html` element) down every branch until it finds the bottom, we can say that the CSS rules for `html` __cascade__ down the waterfall to every descendant of `html`.
 
@@ -129,7 +129,7 @@ Div Sub-Tree
 When we use a selector, we effectively break the document tree into __sub trees__.
 So, as in the previous example, when we select a `div`, we apply rules to it and its descendants.
 
-CSS works exactly as it did will the `html` element, except now the waterfall starts at the root of the sub tree (`div`) and cascades down from there.
+CSS works exactly as it did with the `html` element, except now the waterfall starts at the root of the sub tree (`div`) and cascades down from there.
 
 ## Combining Selectors
 
@@ -165,7 +165,7 @@ div.intro {}
 ```
 
 Sometimes you need to select an element in a certain context. To do this, we can __combine__ selectors.
-If the example on the right, if we wanted to select the `p` tags within the `intro` div, we simple combine the two selectors: `.intro p`.
+In the example on the right, if we wanted to select the `p` tags within the `intro` div, we simply combine the two selectors: `.intro p`.
 
 When we combine selectors, we can do it in a couple ways.
 
